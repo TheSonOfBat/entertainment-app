@@ -18,7 +18,7 @@ export default function App(){
   let [alertOn, updateAlertOn] = React.useState(false);
   const router = createBrowserRouter([
       {
-        path: "/",
+        path: "entertainment-app/",
         element: <Home data={data} toggleBookmark={(target)=>toggleBookmark(target)} alertFunction={()=>{scopeAlert(true)}}/>,
       },
       {
