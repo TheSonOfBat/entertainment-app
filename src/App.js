@@ -62,7 +62,7 @@ export default function App(){
     return(
     <>
         {alertOn&&<Alert isOn={alertOn} toggle={()=>{scopeAlert(false)}}></Alert>}
-        {["/","/movie","/tv", "/bookmark"].includes(router.state.location.pathname) &&<div id="LHS">
+        {["entertainment-app/","entertainment-app/movie","entertainment-app/tv", "entertainment-app/bookmark"].includes(router.state.location.pathname) &&<div id="LHS">
             <Nav alertFunction={()=>{scopeAlert(true)}}/>
         </div>}
         <div id="RHS">
