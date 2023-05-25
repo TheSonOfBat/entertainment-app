@@ -22,15 +22,15 @@ export default function App(){
         element: <Home data={data} toggleBookmark={(target)=>toggleBookmark(target)} alertFunction={()=>{scopeAlert(true)}}/>,
       },
       {
-        path: "/movie",
+        path: "entertainment-app/movie",
         element: <Movie data={data} toggleBookmark={(target)=>toggleBookmark(target)} alertFunction={()=>{scopeAlert(true)}}/>,
       },
       {
-        path: "/tv",
+        path: "entertainment-app/tv",
         element: <TV data={data} toggleBookmark={(target)=>toggleBookmark(target)} alertFunction={()=>{scopeAlert(true)}}/>,
       },
       {
-        path: "/bookmark",
+        path: "entertainment-app/bookmark",
         element: <Bookmark data={data} toggleBookmark={(target)=>toggleBookmark(target)} alertFunction={()=>{scopeAlert(true)}}/>,
       },
       {
